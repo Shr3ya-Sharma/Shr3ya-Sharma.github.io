@@ -42,7 +42,7 @@ a {
   pointer-events: none;
   box-shadow: 0 0 8px white;
   transform: translate(-50%, -50%);
-  animation: fadeOut 0.5s ease-out forwards;
+  animation: fadeOut 1s ease-out forwards;
 }
 
 @keyframes fadeOut {
@@ -56,3 +56,4 @@ a {
   }
 }
 }
+
