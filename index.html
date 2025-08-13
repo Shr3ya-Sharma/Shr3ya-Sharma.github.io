@@ -13,6 +13,22 @@
     <p>Email: <a href="mailto:hcps-sharmas6@henricostudents.org">hcps-sharmas6@henricostudents.org</a></p>
     <a class="resume-button" href="/Resume.pdf" download>Download My Extended Resume</a>
   </div>
+
+  <script>
+  document.addEventListener("mousemove", function(e) {
+    const trail = document.createElement("div");
+    trail.className = "trail";
+    trail.style.left = e.pageX + "px";
+    trail.style.top = e.pageY + "px";
+    document.body.appendChild(trail);
+
+    setTimeout(() => {
+      trail.remove();
+    }, 500);
+  });
+</script>
+  
 </body>
 
 </html>
+
