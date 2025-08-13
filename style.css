@@ -43,6 +43,7 @@ a {
   box-shadow: 0 0 8px white;
   transform: translate(-50%, -50%);
   animation: fadeOut 1s ease-out forwards;
+  color: rgba(0, 0, 0, 0); 
 }
 
 @keyframes fadeOut {
@@ -56,4 +57,5 @@ a {
   }
 }
 }
+
 
