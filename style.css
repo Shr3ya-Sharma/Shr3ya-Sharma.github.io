@@ -58,30 +58,24 @@ a {
 }
 }
 
-.banner {
+.floating-banner {
+  position: absolute;
+  top: 20vh; /* 20% from top of viewport */
+  height: 10vh; /* spans from 20% to 30% */
   width: 100%;
-  overflow: hidden;
   background-color: #111;
   border-bottom: 2px solid white;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
-.banner {
-  width: 100%;
-  overflow: hidden;
-  background-color: #111;
-  border-bottom: 2px solid white;
-  padding: 10px 0;
-  text-align: center;
-  margin-bottom: 10px; /* adds space before your name */
-}
-
-.banner-text {
-  display: inline-block;
-  white-space: nowrap;
+.floating-banner-text {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  white-space: nowrap;
   animation: scroll-left 15s linear infinite;
 }
 
@@ -93,5 +87,3 @@ a {
     transform: translateX(-100%);
   }
 }
-
-
