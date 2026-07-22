@@ -1,26 +1,33 @@
-body {
+h1 {
   font-family: "Courier New", courier, monospace;
   max-width: 800px;
   margin: 40px auto;
-  line-height: 1.6;
+  line-height: 2;
   background: #eab9fa;
-  color: #222;
-}
-
-h1 {
+  text-align: left justify;
   color: rgb(23, 2, 30);
 }
 
 p {
+  font-family: "Courier New", courier, monospace;
+  max-width: 800px;
+  margin: 40px auto;
   font-size: 12px;
-  textalign: left;
-  line-height: 2;
+  textalign: left justify;
+  line-height: 1.6;
+  background: #eab9fa;
   letter-spacing: 1px;
-  color: darkslateblue;
+  color: rgb(49, 1, 63);
 }
 
 li {
-  font-size: 14px;
-  text-align: left;
+  font-family: "Courier New", courier, monospace;
+  max-width: 100px;
   margin: 10px auto;
+  font-size: 14px;
+  textalign: left justify;
+  line-height: 2;
+  background: #eab9fa;
+  letter-spacing: 1px;
+  color: rgb(49, 1, 63);
 }
