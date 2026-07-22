@@ -10,3 +10,17 @@ body {
 h1 {
   color: rgb(23, 2, 30);
 }
+
+p {
+  font-size: 12px;
+  textalign: left;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: darkslateblue;
+}
+
+li {
+  font-size: 14px;
+  text-align: left;
+  margin: 10px auto;
+}
