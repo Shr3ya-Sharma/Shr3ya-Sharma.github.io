@@ -1,0 +1,12 @@
+body {
+  font-family: fantasy, Harrington;
+  max-width: 800px;
+  margin: 40px auto;
+  line-height: 1.6;
+  background: #eab9fa;
+  color: #222;
+}
+
+h1 {
+  color: rgb(23, 2, 30);
+}
