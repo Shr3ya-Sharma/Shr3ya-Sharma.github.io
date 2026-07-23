@@ -31,6 +31,20 @@ body {
   color: rgb(49, 1, 63);
 }
 
+content {
+  float: right;
+  margin-right: 10em;
+  margin-top: 7px;
+  vertical-align: top;
+  font-family: "Courier New", courier, monospace;
+  max-width: 800px;
+  font-size: 14px;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  color: rgb(49, 1, 63);
+  list-style: none;
+}
+
 #header-one {
   margin-right: 10em;
   font-family: "Courier New", courier, monospace;
@@ -51,6 +65,13 @@ body {
   color: rgb(23, 2, 30);
   margin: 0em;
   margin-bottom: -0.5em;
+}
+
+#content ul li {
+  background: none;
+  background-color: transparent;
+  list-style: disc;
+  line-height: 1.8em;
 }
 
 li {

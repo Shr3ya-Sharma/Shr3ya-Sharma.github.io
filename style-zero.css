@@ -21,6 +21,7 @@ body {
 }
 
 #header-one {
+  margin-right: 10em;
   font-family: "Courier New", courier, monospace;
   max-width: 800px;
   line-height: 0.75em;
